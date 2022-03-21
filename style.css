@@ -1,0 +1,89 @@
+.table td:nth-child(2n+2){
+    background: black;
+}
+.table td:nth-child(2n+1){
+    background: #fff;
+}
+.table td:nth-child(10n+1){
+background: bisque !important;
+}
+.table th:nth-child(2n+1) {
+    background: #000;
+}
+.table th:nth-child(2n+2) {
+    background: #fff;
+}
+.table th:nth-child(10n+1) {
+    background: bisque !important;
+}
+.table td{
+    width: 30px;
+    height: 30px;
+        
+}
+.table th{
+    width: 30px;
+    height: 30px;
+    
+}
+table {   
+    border-collapse: collapse;
+    border: none; 
+    text-align: center;      
+}
+.so th{
+    background-color: bisque !important;
+    border: none;
+}
+.table {
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+}
+.calender {
+    width: 500px;
+    text-align: center;
+}
+.week {
+    width: 350px;
+    
+}
+.heading-calender {
+    text-align: center;
+}
+.week th{
+    border: none;
+    background-color: rgb(231, 193, 25);
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 0px;
+    border:  1px solid #fff;
+}
+.eng td {
+    padding: 10px 0px;
+}
+}
+.week .sunday {
+    background-color: red !important;
+}
+.week .saturday {
+    background-color: green;
+}
+.week th, .week td {
+    width: 70px;
+    font-size: 20px;
+}
+.calender .red-day {
+    color: red;
+}
+.calender .green-day {
+    color: green;
+}
+sub{
+    color: #000;
+}
+.red-day, .normal-day, .green-day {
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-weight: 800;
+}
