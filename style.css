@@ -43,6 +43,7 @@ table {
 .calender {
     width: 500px;
     text-align: center;
+    border: 1px solid #000;
 }
 .week {
     width: 350px;
